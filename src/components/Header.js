@@ -7,7 +7,8 @@ const Header = ({ isDarkTheme, toggleTheme, onSearch, onFilterOpen }) => {
         <div className="header-content">
           <button onClick={toggleTheme} className="theme-btn">
             <img 
-              src={isDarkTheme ? "/img/light_btn.png" : "/img/dark_btn.png"} 
+              /* Убрали слэш перед img/ */
+              src={isDarkTheme ? "img/light_btn.png" : "img/dark_btn.png"} 
               alt="Переключить тему" 
               className="theme-icon-img"
             />
@@ -22,13 +23,15 @@ const Header = ({ isDarkTheme, toggleTheme, onSearch, onFilterOpen }) => {
                 onChange={(e) => onSearch(e.target.value)}
               />
               <div className="search-icon">
-                <img src="/img/icon-1.png" alt="search" />
+                {/* Убрали слэш перед img/ */}
+                <img src="img/icon-1.png" alt="search" />
               </div>
             </div>
 
             <button onClick={onFilterOpen} className="filter-btn">
               <img 
-                src={isDarkTheme ? "/img/icon_btn.png" : "/img/icon_btn_white.png"} 
+                /* Убрали слэш перед img/ */
+                src={isDarkTheme ? "img/icon_btn.png" : "img/icon_btn_white.png"} 
                 alt="Фильтр" 
                 className="filter-icon"
               />
