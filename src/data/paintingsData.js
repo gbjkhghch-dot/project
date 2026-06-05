@@ -5,7 +5,7 @@ export const paintingsData = [
     date: "1761",
     artist: "JEAN-HONORE FRAGONARD",
     museum: "LOUVRE MUSEUM",
-    image: "/img/cascateditivoli.jpg"
+    image: process.env.PUBLIC_URL + "/img/cascateditivoli.jpg"
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ export const paintingsData = [
     date: "1886",
     artist: "VINCENT VAN GOGH",
     museum: "MUSEUM OF MODERN ART",
-    image: "/img/PortraitofVincentvanGogh.png"
+    image: process.env.PUBLIC_URL + "/img/PortraitofVincentvanGogh.png"
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ export const paintingsData = [
     date: "1862",
     artist: "JEAN-HONORE FRAGONARD",
     museum: "LOUVRE MUSEUM",
-    image: "/img/Unequalmarriage.png"
+    image: process.env.PUBLIC_URL + "/img/Unequalmarriage.png"
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ export const paintingsData = [
     date: "1624",
     artist: "THOMAS GAINSBOROUGH",
     museum: "NATIONAL GALLERY",
-    image: "/img/ThehappyViolinist.png"
+    image: process.env.PUBLIC_URL + "/img/ThehappyViolinist.png"
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ export const paintingsData = [
     date: "1834",
     artist: "THOMAS GAINSBOROUGH",
     museum: "NATIONAL GALLERY",
-    image: "/img/TheArcadian.jpg"
+    image: process.env.PUBLIC_URL + "/img/TheArcadian.jpg"
   },
   {
     id: 6,
@@ -45,6 +45,6 @@ export const paintingsData = [
     date: "1845",
     artist: "THOMAS GAINSBOROUGH",
     museum: "NATIONAL GALLERY",
-    image: "/img/GolfodiNapoli.jpg"
+    image: process.env.PUBLIC_URL + "/img/GolfodiNapoli.jpg"
   }
 ];
